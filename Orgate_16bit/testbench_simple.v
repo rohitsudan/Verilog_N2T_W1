@@ -4,7 +4,7 @@ parameter width = 16;
 reg [width-1:0] in0;
 reg [width-1:0] in1;
 wire [width-1:0] out;
-and16_bit mymux(in0,in1,out);
+or16_bit mymux(in0,in1,out);
 initial
 begin
 	$dumpfile("testbench_simple.vcd");//the name of the .vcd file should be as the same as the testbecnh file
@@ -19,4 +19,4 @@ begin
 	in1='b0000000000000000;
         $finish;
 end
-endmoduleit
+endmodule
