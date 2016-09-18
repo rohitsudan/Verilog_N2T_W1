@@ -1,0 +1,40 @@
+$date
+	Sun Sep 18 10:22:18 2016
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module testbench_simple $end
+$var wire 16 ! out [15:0] $end
+$var reg 16 " in0 [15:0] $end
+$scope module mymux $end
+$var wire 16 # in0 [15:0] $end
+$var reg 16 $ out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111110100001100 $
+b1011110011 #
+b1011110011 "
+b1111110100001100 !
+$end
+#100
+b101110100001100 !
+b101110100001100 $
+b1010001011110011 "
+b1010001011110011 #
+#300
+b101010101001100 !
+b101010101001100 $
+b1010101010110011 "
+b1010101010110011 #
+#400
+b1111111111111111 !
+b1111111111111111 $
+b0 "
+b0 #
