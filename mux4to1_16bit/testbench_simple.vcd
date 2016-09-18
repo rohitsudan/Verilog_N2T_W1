@@ -1,0 +1,61 @@
+$date
+	Sun Sep 18 23:47:29 2016
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module testbench_simple $end
+$var wire 16 ! out [15:0] $end
+$var reg 16 " in0 [15:0] $end
+$var reg 16 # in1 [15:0] $end
+$var reg 16 $ in2 [15:0] $end
+$var reg 16 % in3 [15:0] $end
+$var reg 2 & sel [1:0] $end
+$scope module mymux $end
+$var wire 16 ' in0 [15:0] $end
+$var wire 16 ( in1 [15:0] $end
+$var wire 16 ) in2 [15:0] $end
+$var wire 16 * in3 [15:0] $end
+$var wire 2 + sel [1:0] $end
+$var reg 16 , out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1111111111111111 ,
+b0 +
+b111111111 *
+b1111111000000000 )
+b0 (
+b1111111111111111 '
+b0 &
+b111111111 %
+b1111111000000000 $
+b0 #
+b1111111111111111 "
+b1111111111111111 !
+$end
+#100
+b0 !
+b0 ,
+b1 &
+b1 +
+#200
+b1111111000000000 !
+b1111111000000000 ,
+b10 &
+b10 +
+#300
+b111111111 !
+b111111111 ,
+b11 &
+b11 +
+#400
+b1111111111111111 !
+b1111111111111111 ,
+b0 &
+b0 +
