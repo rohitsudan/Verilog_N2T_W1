@@ -1,0 +1,29 @@
+$date
+	Sun Sep 18 08:15:25 2016
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module testbench_simple $end
+$var wire 1 ! out $end
+$var reg 1 " in $end
+$scope module mygate $end
+$var wire 1 " in $end
+$var reg 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+1!
+$end
+#100
+0!
+1"
+#200
+1!
+0"
