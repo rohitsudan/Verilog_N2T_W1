@@ -13,7 +13,7 @@ begin
 	end
 	else
 	begin
-	out[width-1:0] = in1[width-1:0];
+	out[width-1:0] = in1	[width-1:0];
 	end
 end 
 
